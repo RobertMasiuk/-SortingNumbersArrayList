@@ -21,7 +21,6 @@ public class JavaCollections {
 
     public static void main(String[] args) throws IOException {
         ArrayList list = new ArrayList();
-        double a, b, c, d, e, f;
 
         InputStreamReader data = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(data);
@@ -31,7 +30,12 @@ public class JavaCollections {
         list.add(Double.parseDouble(br.readLine()));
         }
 
-     
+        for(int g = 0; g < list.size(); g++){
+            if(i < list.size()-1)
+                System.out.println(list.get(i) + ", ");
+            else
+                System.out.println(list.get(i) + ". ");
+        }
         
         
     }
