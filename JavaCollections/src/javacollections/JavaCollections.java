@@ -27,7 +27,7 @@ public class JavaCollections {
         System.out.println("test");
         print();
         list.add(Double.parseDouble(br.readLine()));
-        System.out.println(list.get(j};
+        //System.out.println(list.get(j};
     
         }
      //   for (Object list1 : list) {
