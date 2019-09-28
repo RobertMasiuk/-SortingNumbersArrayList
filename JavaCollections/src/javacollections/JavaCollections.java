@@ -2,7 +2,6 @@
  * This program add number to collection(I use ArrayList) and sort from largest to smallest.
  */
 package javacollections;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -13,8 +12,7 @@ import java.util.*;
  */
 public class JavaCollections {
     public static int i = 1;
-    public static void print(){
-        
+    public static void print(){        
         System.out.println("give " + i + " number's; ");
         i++;
     }
@@ -26,16 +24,18 @@ public class JavaCollections {
         BufferedReader br = new BufferedReader(data);
         
         for(int j = 0; j < 10; j++){
+        System.out.println("test");
         print();
         list.add(Double.parseDouble(br.readLine()));
+     // System.out.println(list.get(j};
+    
         }
-
-        for(int g = 0; g < list.size(); g++){
-            if(i < list.size()-1)
-                System.out.println(list.get(i) + ", ");
-            else
-                System.out.println(list.get(i) + ". ");
-        }
+     //   for (Object list1 : list) {
+     //       if(i < (list.size()-1))
+     //           System.out.println(list.get(i) + ", ");
+     //       else
+     //           System.out.println(list.get(i) + ". ");
+     //   }
         
         
     }
