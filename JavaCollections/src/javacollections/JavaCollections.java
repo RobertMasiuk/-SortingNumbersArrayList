@@ -27,15 +27,15 @@ public class JavaCollections {
         System.out.println("test");
         print();
         list.add(Double.parseDouble(br.readLine()));
-        //System.out.println(list.get(j};
-    
+        System.out.println(list.get(j));
         }
-     //   for (Object list1 : list) {
-     //       if(i < (list.size()-1))
-     //           System.out.println(list.get(i) + ", ");
-     //       else
-     //           System.out.println(list.get(i) + ". ");
-     //   }
+        
+        for (Object list1 : list) {
+            if(i < (list.size()-1))
+                System.out.println(list.get(i) + ", ");
+           else
+               System.out.println(list.get(i) + ". ");
+       }
         
         
     }
