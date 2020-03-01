@@ -22,7 +22,7 @@ public class JavaCollections {
 
         InputStreamReader data = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(data);
-        
+
         for(int j = 0; j < 10; j++){
         System.out.println("test");
         print();
@@ -31,8 +31,10 @@ public class JavaCollections {
         }
         
         for (Object list1 : list) {
-            if(i < (list.size()-1))
+            if(i < (list.size()-1)){
                 System.out.println(list.get(i) + ", ");
+                System.out.println("1");
+            }
            else
                System.out.println(list.get(i) + ". ");
        }
